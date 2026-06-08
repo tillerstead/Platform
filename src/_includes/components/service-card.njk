@@ -7,11 +7,11 @@
     - card.title: Card heading (required)
     - card.description: Card body text
     - card.href: Optional link URL
-  
+
   EXAMPLE:
     {% set card = { icon: "shield-check", title: "Licensed", description: "..." } %}
     {% include "components/service-card.njk" %}
-  
+
   TOKENS USED: --color-surface-*, --color-text-*, --color-brand-*
   RESPONSIVE: Full-width, shadow on hover
 ─────────────────────────────────────────────────────────────
@@ -19,7 +19,7 @@
 
 <article class="group rounded-xl border shadow-sm transition-all duration-200 hover:shadow-md hover:-translate-y-1" style="background-color: var(--color-surface-primary); border-color: var(--color-border-primary);">
   <div class="p-8">
-    
+
     {# Icon #}
     {% if card.icon %}
     <div class="inline-flex items-center justify-center w-12 h-12 rounded-lg mb-4" style="background-color: var(--color-brand-primary-tint); color: var(--color-brand-primary);">
@@ -33,11 +33,11 @@
         </svg>
       {% elif card.icon == "guide" %}
         <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-          <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 6.253v13m0-13C6.5 6.253 2 10.998 2 17.25S6.5 28 12 28s10-4.745 10-10.75S17.5 6.253 12 6.253z"></path>
+          <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 6.042A8.967 8.967 0 006 3.75c-1.052 0-2.062.18-3 .512v14.25A8.987 8.987 0 016 18c2.305 0 4.408.867 6 2.292m0-14.25a8.966 8.966 0 016-2.292c1.052 0 2.062.18 3 .512v14.25A8.987 8.987 0 0018 18a8.967 8.967 0 00-6 2.292m0-14.25v14.25"></path>
         </svg>
       {% elif card.icon == "tools" %}
         <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-          <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19.348 4.652a2.5 2.5 0 00-3.536 0l-.172.172-.534-.534a2.5 2.5 0 00-3.536 0l1.414 1.414.172-.172a.5.5 0 01.707 0l.172.172 1.414-1.414zm6.364 6.364l-9.9 9.9m0 0L3.05 20.95m11.314-11.314l1.414 1.414m-5.656-5.656l1.414 1.414"></path>
+          <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M11.42 15.17l-5.1 5.1a2.121 2.121 0 01-3-3l5.1-5.1m0 0L4.16 7.9a2.121 2.121 0 013-3l4.26 4.26m0 0l3.86-3.86a2.121 2.121 0 013 3l-3.86 3.86m0 0l4.26 4.26a2.121 2.121 0 01-3 3l-4.26-4.26"></path>
         </svg>
       {% else %}
         <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">

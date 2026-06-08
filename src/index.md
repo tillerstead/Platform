@@ -22,7 +22,7 @@ permalink: false
 
 <section class="py-16 md:py-24 bg-white">
   <div class="mx-auto max-w-6xl px-6">
-    
+
     <div class="max-w-2xl mb-12">
       <h2 class="text-3xl md:text-4xl font-bold text-slate-900 mb-4">Services</h2>
       <p class="text-lg text-slate-600">
@@ -95,7 +95,7 @@ permalink: false
 
 <section class="py-16 md:py-24 bg-slate-50">
   <div class="mx-auto max-w-6xl px-6">
-    
+
     <div class="max-w-2xl mb-12">
       <h2 class="text-3xl md:text-4xl font-bold text-slate-900 mb-4">Why Tillerstead?</h2>
       <p class="text-lg text-slate-600">
@@ -148,7 +148,7 @@ permalink: false
       <div class="flex gap-4">
         <div class="w-12 h-12 rounded-lg bg-amber-100 flex items-center justify-center shrink-0">
           <svg class="w-6 h-6 text-amber-600" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 6.253v13m0-13C6.5 6.253 2 10.998 2 17.25S6.5 28 12 28s10-4.745 10-10.75S17.5 6.253 12 6.253z"></path>
+            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 6.042A8.967 8.967 0 006 3.75c-1.052 0-2.062.18-3 .512v14.25A8.987 8.987 0 016 18c2.305 0 4.408.867 6 2.292m0-14.25a8.966 8.966 0 016-2.292c1.052 0 2.062.18 3 .512v14.25A8.987 8.987 0 0018 18a8.967 8.967 0 00-6 2.292m0-14.25v14.25"></path>
           </svg>
         </div>
         <div>
@@ -166,7 +166,7 @@ permalink: false
 
 <section class="py-16 md:py-24 bg-white">
   <div class="mx-auto max-w-6xl px-6">
-    
+
     <div class="max-w-2xl mb-12">
       <h2 class="text-3xl md:text-4xl font-bold text-slate-900 mb-4">Contractor Tools</h2>
       <p class="text-lg text-slate-600">Use our calculators and estimators to plan demolition, prep, and finish installation with realistic quantities and sequencing.</p>
@@ -204,12 +204,12 @@ permalink: false
 
 <section class="py-16 md:py-24 bg-gradient-to-br from-slate-950 via-slate-900 to-slate-800 text-white">
   <div class="mx-auto max-w-4xl px-6 text-center">
-    
+
     <h2 class="text-3xl md:text-4xl font-bold mb-4">Ready to Start Your Remodel?</h2>
     <p class="text-lg text-slate-300 max-w-2xl mx-auto mb-8">
       Request early access to get scope planning for bathroom, flooring, backsplash, and interior installation projects.
     </p>
-    
+
     <a href="/early-access" class="inline-flex items-center gap-2 px-8 py-4 rounded-lg bg-amber-500 text-slate-950 font-semibold hover:bg-amber-400 transition-colors">
       Request Early Access
       <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
